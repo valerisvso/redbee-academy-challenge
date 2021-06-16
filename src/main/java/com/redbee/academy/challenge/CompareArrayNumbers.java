@@ -14,16 +14,17 @@ public class CompareArrayNumbers {
    */
   public static List<Integer> max(List<Integer> a, List<Integer> b) {
     //TODO: Implement me
-    var result = [];
-    for (int i = 0; i < a.length; i++) { //(5, 1, 5)
-      for (int j = 0; j < b.length; i++) { //(1, 5, 1)
-        if (i > j ) { // 5 > 1
-          result = i;
+    int result[] = new int[];
+
+    for (int i = 0; i < a.size(); i++) { //(5, 1, 5)
+      for (int j = 0; j < b.size(); j++) { //(1, 5, 1)
+        if (Integer.valueOf(a) > Integer.valueOf(b) ) { // 5 > 1
+          result= Integer.valueOf(a);
         } else {
-          result = j;
+          result= Integer.valueOf(b);
         }
       }
-      return result; 5
+      System.out.println("The result is: " + result); 
     }
     return null;
   }

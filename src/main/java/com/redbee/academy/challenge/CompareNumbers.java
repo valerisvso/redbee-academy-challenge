@@ -13,12 +13,12 @@ public class CompareNumbers {
    */
   public static Integer max(Integer a, Integer b, Integer c) {
     //TODO: Implement me
-    if(a > b && a > c) {
-      return a;
-    } else if(b > a && b > c) {
-      return b;
+    if((Integer.valueOf(a) > Integer.valueOf(b)) && (Integer.valueOf(a) > Integer.valueOf(c)) {
+      System.out.println("The Max Integer Number is: " + Integer.valueOf(a));
+    } else if( (Integer.valueOf(b) > Integer.valueOf(a)) && (Integer.valueOf(b) > Integer.valueOf(c)) ) {
+      System.out.println("The Max Integer Number is: " + Integer.valueOf(b));
     } else {
-      return c;
+      System.out.println("The Max Integer Number is: " + Integer.valueOf(c));
     }
     return null;
   }

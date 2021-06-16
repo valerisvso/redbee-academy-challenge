@@ -13,10 +13,13 @@ public class SumArrayNumbers {
    */
   public static Integer sum(List<Integer> array) {
     //TODO: Implement me
-    for(var i = 0; i < array.length; i++){ 
-      for(var j = i + 1; j < array.length; j++){
-        if(array[i] + array[j] === n){
-          return true;
+    int result = 0;
+
+    for(i = 0; i < array.length; i++) { 
+      for(j = i + 1; j < array.length; j++) {
+        if(array(i) + array(j) == n) {
+          result = array(i) + array(j);
+          System.out.println("The sum of " + result);
         }
       }
     }
