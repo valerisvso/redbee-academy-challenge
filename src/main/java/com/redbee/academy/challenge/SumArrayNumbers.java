@@ -15,14 +15,9 @@ public class SumArrayNumbers {
     //TODO: Implement me
     int result = 0;
 
-    for(i = 0; i < array.length; i++) { 
-      for(j = i + 1; j < array.length; j++) {
-        if(array(i) + array(j) == n) {
-          result = array(i) + array(j);
-          System.out.println("The sum of " + result);
-        }
-      }
+    for(i = 0; i < array.size(); i++) { 
+      result += array.get(i);
     }
-    return null;
+    return result;
   }
 }

@@ -14,8 +14,8 @@ public class SumTwoNumbers {
     //TODO: Implement me
     int result = 0;
 
-    result = Integer.valueOf(a) + Integer.valueOf(b);:
+    result = a + b;
     System.out.println("The sum of both numbers is: " + result);
-    return null;
+    return result;
   }
 }
